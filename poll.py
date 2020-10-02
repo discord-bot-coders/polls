@@ -1,3 +1,5 @@
+# if your bot does not have bot = commands.Bot(command_prefix='{prefix}') that mean the @bot.command wont work
+# for example if yours have BOT = commands.Bot(command_prefix='{prefix}') that means you need to do @BOT.command
 @bot.command()
 # If you only want a permission to do it you can do it below
 @commands.has_permissions(manage_messages=True)
